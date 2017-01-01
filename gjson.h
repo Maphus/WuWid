@@ -11,6 +11,7 @@
 //
 //
 
-int get_json();
+int get_json(); 	//final call to get json data and store it in a file to be parsed
+char *get_key();	//function to get key URL that will be used in request
 
 #endif
